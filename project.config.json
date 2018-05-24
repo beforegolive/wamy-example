@@ -1,0 +1,14 @@
+{
+	"description": "A Wamy project",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"appid": "wxc4af2289733a9e1d",
+	"projectname": "wamy-first-project",
+	"condition": {}
+}
