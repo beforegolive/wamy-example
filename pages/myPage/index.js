@@ -1,4 +1,4 @@
-import wamy from '../../core/index'
+import wamy from 'wamy'
 
 function getPromise() {
   let seconds = 3
