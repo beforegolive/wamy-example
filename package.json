@@ -15,8 +15,10 @@
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0",
     "redux-thunk": "^2.2.0",
+    "regenerator": "^0.12.3",
     "wamy": "^0.6.4",
-    "wamy-redux": "^0.6.3"
+    "wamy-redux": "^0.6.3",
+    "wepy-async-function": "^1.4.6"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -30,12 +32,6 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "gulp-babel": "^7.0.1",
-    "gulp-rename": "^1.2.3",
-    "gulp-strip-comments": "^2.5.2",
-    "gulp-uglify": "^3.0.0",
-    "gulp-umd": "^2.0.0",
-    "webpack-stream": "^4.0.3"
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
