@@ -1,6 +1,6 @@
 // pages/myPage1.js
 import wamy from 'wamy'
-import { connect, wrapper } from '../../wamy-redux/index'
+import { connect } from 'wamy-redux'
 import { bindActionCreators } from 'redux'
 import * as actionCreators from '../../reduxRelated/actions/index'
 

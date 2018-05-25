@@ -23,7 +23,8 @@
     "regenerator": "^0.12.3",
     "require-dir": "^1.0.0",
     "through2": "^2.0.3",
-    "wamy": "^0.6.3"
+    "wamy": "^0.6.4",
+    "wamy-redux": "^0.6.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

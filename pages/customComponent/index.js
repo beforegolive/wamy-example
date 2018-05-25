@@ -1,4 +1,3 @@
-import myComopnent from '../../lib/myComponent.js'
 import { reducer1Action } from '../../reduxRelated/actions/index'
 
 const app = getApp()
