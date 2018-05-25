@@ -11,18 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "commander": "^2.15.1",
-    "gulp": "^4.0.0",
-    "gulp-jsbeautifier": "^2.1.2",
     "lodash": "^4.17.10",
-    "react": "^16.3.2",
-    "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0",
     "redux-thunk": "^2.2.0",
-    "regenerator": "^0.12.3",
-    "require-dir": "^1.0.0",
-    "through2": "^2.0.3",
     "wamy": "^0.6.4",
     "wamy-redux": "^0.6.3"
   },
@@ -44,8 +36,6 @@
     "gulp-strip-comments": "^2.5.2",
     "gulp-uglify": "^3.0.0",
     "gulp-umd": "^2.0.0",
-    "lerna": "^2.11.0",
-    "rimraf": "^2.6.2",
     "webpack-stream": "^4.0.3"
   }
 }
