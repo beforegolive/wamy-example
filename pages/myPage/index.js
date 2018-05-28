@@ -1,7 +1,10 @@
+// import regeneratorRuntime from 'regenerator-runtime/runtime';
+// import 'wepy-async-function'
 import wamy from 'wamy'
 import { connect } from 'wamy-redux'
-import 'babel-core/register'
-import 'babel-polyfill'
+// var regeneratorRuntime = require('../../lib/runtime')
+// console.log('=== regeneratorRuntime:', regeneratorRuntime)
+
 
 function getPromise() {
   let seconds = 3

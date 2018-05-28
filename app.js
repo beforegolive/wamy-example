@@ -1,5 +1,10 @@
+// import regeneratorRuntime from 'regenerator-runtime/runtime';
+// import 'wepy-async-function'
+// import './lib/global'
 import configureStore from './reduxRelated/configureStore/index'
 import { setStore } from 'wamy-redux'
+var regeneratorRuntime = require('./lib/runtime')
+console.log('=== regeneratorRuntime:', regeneratorRuntime)
 const store = configureStore()
 setStore(store)
 

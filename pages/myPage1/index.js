@@ -2,8 +2,10 @@
 import wamy from 'wamy'
 import { connect } from 'wamy-redux'
 
-require("babel-core/register")
-require("babel-polyfill")
+// require("babel-core/register")
+// require("babel-polyfill")
+// var regeneratorRuntime = require('../../lib/runtime')
+// console.log('=== regeneratorRuntime:', regeneratorRuntime)
 
 import { bindActionCreators } from 'redux'
 import * as actionCreators from '../../reduxRelated/actions/index'
