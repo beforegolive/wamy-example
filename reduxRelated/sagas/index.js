@@ -1,3 +1,8 @@
+// var regeneratorRuntime = require('../../lib/runtime')
+import regeneratorRuntime from '../../lib/runtime'
+// var regeneratorRuntime = {}
+console.log('=== regeneratorRuntime sagas:', regeneratorRuntime)
+
 import { put, takeEvery } from 'redux-saga/effects'
 import { reducer1Action, reducer2Action } from '../actions/index'
 

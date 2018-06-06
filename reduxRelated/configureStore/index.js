@@ -1,4 +1,7 @@
 // import 'wepy-async-function'
+var regeneratorRuntime = require('../../lib/runtime')
+console.log('=== configureStore regeneratorRuntime:', regeneratorRuntime)
+
 import { createStore, applyMiddleware, compose } from 'redux'
 import reducers from '../reducers/index'
 import thunk from 'redux-thunk'

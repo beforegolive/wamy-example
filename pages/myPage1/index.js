@@ -2,8 +2,6 @@
 import wamy from 'wamy'
 import { connect } from 'wamy-redux'
 
-// require("babel-core/register")
-// require("babel-polyfill")
 // var regeneratorRuntime = require('../../lib/runtime')
 // console.log('=== regeneratorRuntime:', regeneratorRuntime)
 
@@ -36,9 +34,9 @@ export default class MyPage1 extends wamy.page {
     console.log('===== log1:')
   }
 
-  // async log2() {
-  //   console.log('===== log2:')
-  // }
+  async log2() {
+    console.log('===== log2:')
+  }
 
   switch2(){
     this.actions.reducer2Action()
